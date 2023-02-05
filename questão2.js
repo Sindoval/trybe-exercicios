@@ -1,6 +1,8 @@
 
 function splitSentence (frase){
-  return [frase.split(' ')] ;
+  return frase.split(' ') ;
 }
-console.log(splitSentence('vamo que vamo'));
+
+
+console.log(splitSentence('go trybe'));
 
