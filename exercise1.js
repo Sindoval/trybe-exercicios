@@ -75,6 +75,8 @@ const authorBornIn1947 = () => {
 }
     
 console.log(authorBornIn1947())
+
+
 ///////////////////////////////////////////////////////////////////////
 //Retorne o nome do livro com menor número de caracteres (menor nome).
 //De olho na dica 👀: use a função forEach.
@@ -93,6 +95,8 @@ const smallerName = () => {
   
 }
 console.log(smallerName());
+
+
 /////////////////////////////////////////////////////////////////////
 //Encontre o primeiro livro cujo nome possua 26 caracteres.
 const expectedResult3 = {
@@ -111,6 +115,8 @@ const expectedResult3 = {
     return books.find((elemento) => elemento.name.length === 26);
   }
   console.log(getNamedBook());
+
+
   ////////////////////////////////////////////////////////////////
   //Faça uma função que retorne true se todas as pessoas autoras tiverem nascido no século XX, ou false, caso contrário.
   //const expectedResult = false;
@@ -120,6 +126,8 @@ function everyoneWasBornOnSecXX() {
     return books.every((elemento) => elemento.author.birthYear > 1901 && elemento.author.birthYear < 2001);
   }
   console.log(everyoneWasBornOnSecXX());
+
+
   /////////////////////////////////////////////////////////////////
   //Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
   const expectedResult4 = true;
@@ -129,3 +137,5 @@ const someBookWasReleaseOnThe80s = () => {
   return books.some((elemento) => elemento.releaseYear > 1979 && elemento.releaseYear < 1990);
 }
 console.log(someBookWasReleaseOnThe80s());
+
+/////////////////////////////////////////////////////////
